@@ -30,6 +30,13 @@ Para manejar deploys:
 ```bash
 kubectl apply -f MI_ARCHIVO.yaml
 ```
+Debuggear razon porque no se crean nuevos pods para replicas:
+```shell
+# Ver pods pendientes
+kubectl get pods
+
+kubectl get pod/NAME_DE_POD_EN_PENDINT
+```
 
 ### Volumen
 Un directorio que contiene datos y es accesible desde el contenedor
