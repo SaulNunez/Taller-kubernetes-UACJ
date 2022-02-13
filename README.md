@@ -58,3 +58,14 @@ Se encargan de mantener versiones.
 
 ### ReplicaSet
 Intenrara mantener un estado deseable, se encarga de la estabilidad de los contenedores. Ej. manejas varios contenedores del mismo tipo para manejar volumenes cambiantes de transacciones.
+
+# Persistant Volumes
+Una pieza de almacenamiento. S3, Volume, CloudStorage
+
+# Persistant Volume Claim
+Una petición para almacenar hecha por el usuario, puede tener distintos niveles de acceso. Se mandan al storage.
+
+Para consultar
+```shell
+kubectl get pvc
+```
